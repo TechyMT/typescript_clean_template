@@ -1,8 +1,8 @@
-# Node.js Clean Architecture Boilerplate
+# Node.js Boilerplate with Mongoose and MongoDB
 
-This is a Node.js boilerplate with a clean folder structure designed to help you start your projects with best practices. It includes a modular architecture, example user module, and integration with Drizzle ORM.
+This is a boilerplate template for a Node.js project with a clean folder structure using Mongoose and MongoDB. The structure is organized to keep the code modular and maintainable.
 
-## Folder Structure
+## Project Structure
 
 The project structure is as follows:
 ```
