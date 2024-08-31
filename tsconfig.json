@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",                        // Module code generation
+    "esModuleInterop": true,                     // Enables compatibility between CommonJS and ES modules
+    "allowSyntheticDefaultImports": true,        // Allows default imports from modules without default exports
+    "target": "es6",                             // Target ECMAScript version
+    "noImplicitAny": true,                       // Disallow variables of type `any`
+    "moduleResolution": "node",                  // Module resolution strategy
+    "sourceMap": true,                           // Generate source maps
+    "outDir": "build",                           // Output directory for compiled files
+    "rootDir": "./src",                         // Root directory of source files
+    "baseUrl": "./src",                         // Base directory for resolving non-relative module names
+    "paths": {
+      "*": ["node_modules/*", "src/types/*"],    // Mapping for modules and types
+      "@models/*": ["Models/*"],                 // Alias for Models directory
+      "@utils/*": ["utils/*"],                   // Alias for utils directory
+      "@modules/*": ["Modules/*"],               // Alias for Modules directory
+      "@interfaces/*": ["Interfaces/*"],         // Alias for Interfaces directory
+      "@/*": ["*"]                              // Catch-all alias for src
+    },
+    "experimentalDecorators": true,              // Enable experimental support for decorators
+    "emitDecoratorMetadata": true                // Emit metadata for decorators
+  },
+  "include": ["./src/**/*"]                      // Include all files in the src directory
+}

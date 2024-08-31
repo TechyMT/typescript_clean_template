@@ -1,1 +1,0 @@
-# typescript_clean_template
