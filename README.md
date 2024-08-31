@@ -8,7 +8,7 @@ The project structure is as follows:
 ```
 project-root
 │
-├── .evn.example
+├── .env.example
 ├── package.json
 ├── tsconfig.json
 ├── docker-compose.yml
