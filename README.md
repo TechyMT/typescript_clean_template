@@ -147,8 +147,7 @@ To customize this boilerplate for your own use:
 
 1. **Add new modules:**
 
-   - Duplicate the `user` module structure inside the `Modules` directory.
-   - Update the `index.ts` file in the `Modules` directory to export your new module.
+   - Use the [`@techymt/create-module`](https://www.npmjs.com/package/@techymt/create-module) package to generate new modules.
    - Define your models, controllers, services, and routes in the respective directories.
 
 2. **Modify the Mongoose models:**
@@ -163,3 +162,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ### License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Author
+
+- [TechyMT](https://github.com/TechyMT)

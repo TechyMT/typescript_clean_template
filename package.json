@@ -1,7 +1,7 @@
 {
     "name": "typescript_project_template",
     "version": "1.0.0",
-    "description": "",
+    "description": "A clean and maintainable folder architecture for node+ts projects. It can be customized for own use case.",
     "main": "index.js",
     "scripts": {
         "dev": "tsc && nodemon --exec ts-node src/index.ts",
@@ -17,7 +17,11 @@
         "@utils": "src/utils",
         "@modules": "src/Modules"
     },
-    "author": "",
+    "author": "techymt",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TechyMT/typescript_clean_template.git"
+    },
     "license": "ISC",
     "dependencies": {
         "body-parser": "^1.20.1",
